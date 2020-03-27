@@ -1,4 +1,5 @@
 const request = require('supertest');
+const { getActor, getActors } = require('../lib/db/data-helpers');
 const app = require('../lib/app');
 const Actor = require('../lib/models/Actor');
 
